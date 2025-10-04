@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+(c) SCSC 2020, moredump definitions for Cortex M7 processor - Nested Vectored Interrupt Controller
+-->
+
+<memorymapped xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.samsung.com ../Processor.xsd"
+              name="Nested Vectored Interrupt Controller"
+              class="S">
+
+  <!-- This file is based on section 7.3 of the Cortex-M7 Technical Reference Manual -->
+
+  <register addr="e000e004" rw_flags="R" width="4" name="ICTR" comment="Interrupt Controller Type Register"/>
+  <block name="Interrupt Set Enable Registers">
+    <register addr="e000e100" rw_flags="RW" width="4" name="NVIC_ISER0" comment="Interrupt Set Enable Register 0"/>
+    <register addr="e000e104" rw_flags="RW" width="4" name="NVIC_ISER1" comment="Interrupt Set Enable Register 1"/>
+  </block>
+  <block name="Interrupt Clear Enable Registers">
+    <register addr="e000e180" rw_flags="RW" width="4" name="NVIC_ICER0" comment="Interrupt Clear Enable Register 0"/>
+    <register addr="e000e184" rw_flags="RW" width="4" name="NVIC_ICER1" comment="Interrupt Clear Enable Register 1"/>
+  </block>
+  <block name="Interrupt Set Pending Registers">
+    <register addr="e000e200" rw_flags="RW" width="4" name="NVIC_ISPR0" comment="Interrupt Set Pending Register 0"/>
+    <register addr="e000e204" rw_flags="RW" width="4" name="NVIC_ISPR1" comment="Interrupt Set Pending Register 1"/>
+  </block>
+  <block name="Interrupt Clear Pending Registers">
+    <register addr="e000e280" rw_flags="RW" width="4" name="NVIC_ICPR0" comment="Interrupt Clear Pending Register 0"/>
+    <register addr="e000e284" rw_flags="RW" width="4" name="NVIC_ICPR1" comment="Interrupt Clear Pending Register 1"/>
+  </block>
+  <block name="Interrupt Active Bit Registers">
+    <register addr="e000e300" rw_flags="R" width="4" name="NVIC_IABR0" comment="Interrupt Active Bit Register 0"/>
+    <register addr="e000e304" rw_flags="R" width="4" name="NVIC_IABR1" comment="Interrupt Active Bit Register 1"/>
+  </block>
+  <block name="Interrupt Priority Registers">
+    <register addr="e000e400" rw_flags="RW" width="4" name="NVIC_IPR0" comment="Interrupt Priority Register 0"/>
+    <register addr="e000e404" rw_flags="RW" width="4" name="NVIC_IPR1" comment="Interrupt Priority Register 1"/>
+    <register addr="e000e408" rw_flags="RW" width="4" name="NVIC_IPR2" comment="Interrupt Priority Register 2"/>
+    <register addr="e000e40c" rw_flags="RW" width="4" name="NVIC_IPR3" comment="Interrupt Priority Register 3"/>
+    <register addr="e000e410" rw_flags="RW" width="4" name="NVIC_IPR4" comment="Interrupt Priority Register 4"/>
+    <register addr="e000e414" rw_flags="RW" width="4" name="NVIC_IPR5" comment="Interrupt Priority Register 5"/>
+    <register addr="e000e418" rw_flags="RW" width="4" name="NVIC_IPR6" comment="Interrupt Priority Register 6"/>
+    <register addr="e000e41c" rw_flags="RW" width="4" name="NVIC_IPR7" comment="Interrupt Priority Register 7"/>
+    <register addr="e000e420" rw_flags="RW" width="4" name="NVIC_IPR8" comment="Interrupt Priority Register 8"/>
+    <register addr="e000e424" rw_flags="RW" width="4" name="NVIC_IPR9" comment="Interrupt Priority Register 9"/>
+    <register addr="e000e428" rw_flags="RW" width="4" name="NVIC_IPR10" comment="Interrupt Priority Register 10"/>
+    <register addr="e000e42c" rw_flags="RW" width="4" name="NVIC_IPR11" comment="Interrupt Priority Register 11"/>
+    <register addr="e000e430" rw_flags="RW" width="4" name="NVIC_IPR12" comment="Interrupt Priority Register 12"/>
+    <register addr="e000e434" rw_flags="RW" width="4" name="NVIC_IPR13" comment="Interrupt Priority Register 13"/>
+    <register addr="e000e438" rw_flags="RW" width="4" name="NVIC_IPR14" comment="Interrupt Priority Register 14"/>
+    <register addr="e000e43c" rw_flags="RW" width="4" name="NVIC_IPR15" comment="Interrupt Priority Register 15"/>
+  </block>
+</memorymapped>

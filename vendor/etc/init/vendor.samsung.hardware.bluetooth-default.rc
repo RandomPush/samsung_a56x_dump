@@ -1,0 +1,18 @@
+on early-boot
+    # for BT MAC address
+    mkdir /mnt/vendor/efs/bluetooth 0770 system bluetooth
+    # if already exist
+    chown system bluetooth /mnt/vendor/efs/bluetooth
+    chown system bluetooth /mnt/vendor/efs/bluetooth/bt_addr
+    chmod 0770 /mnt/vendor/efs/bluetooth
+    chmod 0660 /mnt/vendor/efs/bluetooth/bt_addr
+
+    # permissions for bluetooth.
+    setprop ro.bt.bdaddr_path "/mnt/vendor/efs/bluetooth/bt_addr"
+    chown bluetooth bluetooth ro.bt.bdaddr_path
+
+service sec-bluetooth-aidl /vendor/bin/hw/vendor.samsung.hardware.bluetooth-service
+    interface aidl vendor.samsung.hardware.bluetooth.ISehBluetooth/default
+    class hal
+    user bluetooth
+    group system bluetooth
