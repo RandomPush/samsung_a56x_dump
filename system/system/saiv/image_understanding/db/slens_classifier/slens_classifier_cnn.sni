@@ -1,0 +1,13 @@
+{
+    "SERVICE_NAME": "BIXBYVISION",
+    "SERVICE_VERSION": "3.5",
+    "MODEL_TYPE": "classifier",
+    "COMPILER_NAME": "SNAP",
+    "COMPUTE_UNIT": "CPU",
+    "COMPILER_OPTION": "CPU",
+    "COMPILER_VERSION": "none",
+    "MODEL_VERSION": "6.5.1",
+    "MODEL_FOLDER": "/vendor/etc/saiv/image_understanding/db/",
+    "MODEL_TYPE_ABBR": "CLS",
+    "MODEL_FILES": "slens_classifier_cnn_light.caffemodel"
+}
