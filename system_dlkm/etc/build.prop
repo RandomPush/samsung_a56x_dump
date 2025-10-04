@@ -1,0 +1,21 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_dlkm.brand=samsung
+ro.product.system_dlkm.device=a56x
+ro.product.system_dlkm.manufacturer=samsung
+ro.product.system_dlkm.model=SM-A566E
+ro.product.system_dlkm.name=a56xnsxx
+ro.system_dlkm.build.date=Wed Jul 30 16:55:26 KST 2025
+ro.system_dlkm.build.date.utc=1753862126
+ro.system_dlkm.build.fingerprint=samsung/a56xnsxx/a56x:15/AP3A.240905.015.A2/A566EXXS6AYGF:user/release-keys
+ro.system_dlkm.build.id=AP3A.240905.015.A2
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+ro.system_dlkm.build.version.incremental=A566EXXS6AYGF
+ro.system_dlkm.build.version.release=15
+ro.system_dlkm.build.version.release_or_codename=15
+ro.system_dlkm.build.version.sdk=35
+# end of file
+
