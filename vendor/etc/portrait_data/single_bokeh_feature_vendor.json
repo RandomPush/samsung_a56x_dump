@@ -1,0 +1,15 @@
+{
+    "deviceName": "exynos2500_common",
+    "video_call_effect_segmentation": {
+        "Weightfile": "/vendor/etc/portrait_data/SRIB_HumanSegVideoLite_INT8_V101_ex8845_enn225k.nnc",
+        "Version": "101",
+        "ComputeUnit": "COMPUTE_NPU",
+        "ExecutionDataType": "QASYMM8",
+        "ModelType": "MODEL_TYPE_SEM_SEG_VIDEO",
+        "ModelFormat": "EDEN",
+        "Encryption": "false",
+        "RunInference": "true",
+        "input_size": [[288, 288], [288, 288], [288, 288], [288, 288]],
+        "effects_supported": [0, 11, 12, 16]
+    }
+}

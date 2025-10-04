@@ -1,0 +1,11 @@
+<!--
+    Input:
+        vendor/samsung_slsi/exynos/audio/aidl_sthal/soundtrigger3-service-default.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.soundtrigger3</name>
+        <version>2</version>
+        <fqname>ISoundTriggerHw/default</fqname>
+    </hal>
+</manifest>

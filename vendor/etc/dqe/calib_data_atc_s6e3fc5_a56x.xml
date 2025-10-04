@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<calib_data>
+  <version>06100000</version>
+  <mode name="tune">
+    <atc al="0">
+      <aps>1,0,128,128,10,2,2,6,0,1,1,0,192,100,0,1,0,0,0,0,0,0</aps>
+      <apsdoff>1</apsdoff>
+      <qsize>11</qsize>
+      <qcoeff>10</qcoeff>
+      <qdelay>0</qdelay>
+      <qalcoeff>0</qalcoeff>
+    </atc>
+    <atc al="5000">
+      <aps>1,0,128,128,10,2,2,6,0,1,1,400,192,100,0,1,0,0,0,0,0,0</aps>
+      <qsize>11</qsize>
+      <qcoeff>10</qcoeff>
+      <qdelay>0</qdelay>
+      <qalcoeff>0</qalcoeff>
+    </atc>
+    <atc al="10000">
+      <aps>1,0,128,128,10,2,2,6,0,1,1,512,192,100,0,1,0,0,0,0,0,0</aps>
+      <qsize>11</qsize>
+      <qcoeff>10</qcoeff>
+      <qdelay>0</qdelay>
+      <qalcoeff>0</qalcoeff>
+    </atc>
+    <atc al="50000">
+      <aps>1,0,128,128,10,2,2,6,0,1,1,800,192,100,0,1,0,0,0,0,0,0</aps>
+      <qsize>11</qsize>
+      <qcoeff>10</qcoeff>
+      <qdelay>0</qdelay>
+      <qalcoeff>0</qalcoeff>
+    </atc>
+  </mode>
+</calib_data>
