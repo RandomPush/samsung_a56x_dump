@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<records>
+<boot_file>/system/bin/surfaceflinger</boot_file>
+<boot_file>/system/lib64/libinput.so</boot_file>
+<boot_file>/vendor/lib64/egl/libGLESv2_samsung.so</boot_file>
+</records>

@@ -1,0 +1,23 @@
+on init
+# GPERF interfaces
+    chown system system /dev/exynos-profiler
+    chown system system /sys/devices/platform/exynos-profiler/control/control_profile
+    chown system system /sys/devices/platform/exynos-profiler/control/set_margin
+    chown system system /sys/devices/platform/exynos-profiler/control/user_fps
+    chown system system /sys/devices/platform/exynos-profiler/control/user_skin
+    chown system system /sys/devices/platform/exynos-profiler/control/user_mode
+    chown system system /sys/devices/platform/exynos-profiler/control/stats0
+    chown system system /sys/devices/platform/exynos-profiler/control/stats1
+
+on post-fs-data
+# GPERF data
+    mkdir /data/vendor/gperf 0771 system system
+
+# gperf daemon
+service gperfd /vendor/bin/gperf /vendor/etc/mlcata.tflite /vendor/etc/mlcatb.tflite
+    class main
+    user system
+    group system
+    writepid /dev/cpuset/system-background/tasks
+    seclabel u:r:gperfd:s0
+

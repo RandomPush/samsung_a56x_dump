@@ -1,0 +1,10 @@
+<!--
+    Input:
+        vendor/samsung_slsi/hardware/SbwcDecompService/default/SbwcDecompService-default.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="aidl">
+        <name>vendor.samsung_slsi.hardware.SbwcDecompServiceAidl</name>
+        <fqname>ISbwcDecompServiceAidl/default</fqname>
+    </hal>
+</manifest>

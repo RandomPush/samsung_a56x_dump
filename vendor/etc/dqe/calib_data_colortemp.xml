@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Calib_Data>
+  <mode name="colortemp">
+    <linear_matrix temp="4000">1,75069,10877,1919,0,-357,61763,678,0,-122,-278,33689,0,0,0,0,65536</linear_matrix>
+    <linear_matrix temp="5000">1,70427,5311,1102,0,-174,63932,433,0,-72,-172,46085,0,0,0,0,65536</linear_matrix>
+    <linear_matrix temp="6000">1,67507,2057,480,0,-68,64992,201,0,-32,-79,56737,0,0,0,0,65536</linear_matrix>
+    <linear_matrix temp="7000">1,65536,0,0,0,0,65536,0,0,0,0,65536,0,0,0,0,65536</linear_matrix>
+    <linear_matrix temp="8000">1,64125,-1393,-379,0,45,65826,-170,0,25,64,72753,0,0,0,0,65536</linear_matrix>
+    <linear_matrix temp="9000">1,63073,-2383,-682,0,77,65985,-310,0,46,117,78673,0,0,0,0,65536</linear_matrix>
+  </mode>
+</Calib_Data>
