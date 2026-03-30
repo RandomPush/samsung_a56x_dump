@@ -1,0 +1,14 @@
+# a56xnsxx-user 16 BP2A.250605.031.A3 A566EXXS9BZB8 release-keys
+- manufacturer: samsung
+- platform: erd8855
+- codename: a56x
+- flavor: a56xnsxx-user
+- release: 16
+- id: BP2A.250605.031.A3
+- incremental: A566EXXS9BZB8
+- tags: release-keys
+- fingerprint: samsung/a56xnsxx/a56x:15/AP3A.240905.015.A2/A566EXXS9BZB8:user/release-keys
+- is_ab: true
+- brand: samsung
+- branch: a56xnsxx-user-16-BP2A.250605.031.A3-A566EXXS9BZB8-release-keys-
+- repo: samsung_a56x_dump
