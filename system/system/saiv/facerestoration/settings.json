@@ -1,0 +1,16 @@
+{
+    "baseTune": "a56x",
+    "version": "1",
+    "set_bv_th": -3.5,
+    "set_bv_min": 0.5,
+    "set_bv_max": 1.6,
+    "set_face_count": 1,
+    "set_ll_bv_min": -7.6,
+    "set_ll_bv_max": -6.2,
+    "set_fr_manual": 1,
+    "set_brow_level": 0,
+    "set_eye_level": 0,
+    "set_hair_level": 0,
+    "set_skin_level": 0,
+    "set_mouth_level": 0
+}
